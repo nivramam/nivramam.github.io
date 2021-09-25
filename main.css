@@ -41,3 +41,17 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("IMG_9538.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
